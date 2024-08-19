@@ -1,0 +1,5 @@
+google-api-python-client==2.92.0
+selenium==4.11.2
+webdriver-manager==4.0.2
+pyautogui==0.9.54
+tk
