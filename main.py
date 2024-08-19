@@ -90,14 +90,13 @@ def create_ui():
     tk.Label(window, text="YouTube API Key:").grid(row=0, column=0, padx=10, pady=10)
     api_key_entry = tk.Entry(window, width=40)
     api_key_entry.grid(row=0, column=1, padx=10, pady=10)
-    api_key_entry.insert(0, "AIzaSyD8-I8KqrDwYgW4tcf9B_ys5YZ0rvM3-vU")
+    
 
     # Channel URL Entry
     tk.Label(window, text="Channel Id:").grid(row=1, column=0, padx=10, pady=10)
     channel_id = tk.Entry(window, width=40)
     channel_id.grid(row=1, column=1, padx=10, pady=10)
-    channel_id.insert(0, "UCHQcojfM8lWYx11Jrj3j5-A")
-
+   
     # Video Count Entry
     tk.Label(window, text="Number of Videos:").grid(row=2, column=0, padx=10, pady=10)
     video_count_entry = tk.Entry(window, width=40)
